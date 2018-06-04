@@ -1,4 +1,4 @@
-# Base Peoject  
+# Basic Project  
 ## File Organization
 ```
 ├── checkpoints/
