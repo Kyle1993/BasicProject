@@ -1,4 +1,4 @@
-# Basic Project  
+#Basic Project  
 ## File Organization
 ```
 ├── checkpoints/
@@ -16,6 +16,7 @@
 ├── train.py
 └── README.md
 ```  
+
 
 
 * checkpoints/： 用于保存训练好的模型，可使程序在异常退出后仍能重新载入模型，恢复训练  
