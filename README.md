@@ -1,5 +1,5 @@
-#Basic Project  
-## File Organization
+# Basic Project  
+## File Organization  
 ```
 ├── checkpoints/
 │
