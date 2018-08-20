@@ -1,6 +1,7 @@
 from torch.utils.data import Dataset,DataLoader
 import pickle
 import numpy as np
+import torch.nn as nn
 
 class MyDataset(Dataset):
     def __init__(self,):

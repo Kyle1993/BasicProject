@@ -56,7 +56,8 @@ for epoch in range(config.epoch_num):
             validate_loader = DataLoader(validate_dataset, batch_size=config.validate_batch_size, shuffle=True)
             vloss = 0
             for vs,(vd,vl) in enumerate(validate_loader):
-                vd = Variable(vd,volatile=True)
+                vd = Variable(vd,volatile=True).float()
+                vl = Variable(vl,volatile=True).float()
                 if config.gpu>=0:
                     vd = vd.cuda(config.gpu)
                     vl = vl.cuda(config.gpu)
